@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Inicio</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link href="styles.css" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <nav class="carousel-nav">
+                    <ul class="nav-links">  
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="REPUESTOS.html">REPUESTOS</a></li>
+                        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                        <li>
+                            <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#registroModal">
+                                Registrarse
+                              </button>
+                              
+                        <button class="btn btn-custom mx-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="bi bi-cart4"></i> <span> 🛒</span>
+                            <span id="contador" class="position-absolute top-0 badge rounded-pill bg-danger">
+                              0
+                            </span>
+                          </button>
+                        </li>
+                    </ul>
+                </nav>
+
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagenes/5.jpg" alt="Primera imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagenes/8.jfif" alt="Segunda imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagenes/7.jfif" alt="Tercera imagen">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </header>
+        <main>
+<div class="container my-4">
+    <div class="row text-center align-items-center">
+        <div class="col-md-3">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="imagenes/icono1.png" alt="Experiencia" class="me-2" style="width: 40px;">
+                <div>
+                    <strong>5 años de experiencia y servicio</strong>
+                    <p class="mb-0">Líderes en ventas de repuestos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="imagenes/icono2.png" alt="Catálogo" class="me-2" style="width: 40px;">
+                <div>
+                    <strong class="text-danger">Más de 16.000 repuestos en catálogo</strong>
+                    <p class="mb-0">Encuentre el repuesto que usted desee.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="imagenes/icono3.png" alt="Envío rápido" class="me-2" style="width: 40px;">
+                <div>
+                    <strong>Envío express en 1-2 días</strong>
+                    <p class="mb-0">Gratis en todos los pedidos superiores a 1000bs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="imagenes/icono4.png" alt="Seguro" class="me-2" style="width: 40px;">
+                <div>
+                    <strong>Seguro incluido y garantía</strong>
+                    <p class="mb-0">Protección ante cualquier incidencia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-4">
+    <h2 class="text-center mb-4">más vendido</h2>
+    <div class="row">
+        
+        <div class="col-md-3">
+            <div class="card">
+                <img src="imagenes/p8-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                <div class="card-body">
+                    <h5 class="card-title"id="nombre" >Filtro de Diesel</h5>
+                    <p class="card-text">CAT</p>
+                    <p class="fs-5" id="precio">28 bs</p>
+                    <div class="d-flex justify-content-between">
+                        <div class="input-group" style="width: 100px;">  
+                        </div>
+                        
+                        <button id= "btnprod1"class="btn btn-warning">🛒Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="imagenes/p14-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                <div class="card-body">
+                    <h5 class="card-title"id="nombre1">Oring</h5>
+                    <p class="card-text" >CAT</p>
+                    <p class="fs-5" id="precio1">80 bs</p>
+                    <div class="d-flex justify-content-between">
+                        <div class="input-group" style="width: 100px;">
+                            
+                        </div>
+                        <button id= "btnag1"class="btn btn-warning">🛒Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="imagenes/p19-removebg-preview.png" class="card-img-top" alt="Tinto Pesquera Crianza 2021">
+                <div class="card-body">
+                    <h5 class="card-title" id="nombre2">Chapa de Contacto</h5>
+                    <p class="card-text">CAT</p>
+                    <p class="fs-5" id="precio2">120 bs</p>
+                    <div class="d-flex justify-content-between">
+                        <div class="input-group" style="width: 100px;">
+                            
+                            
+                        </div>
+                        <button class="btn btn-warning" id="btnag2">🛒 Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="imagenes/r4-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                <div class="card-body">
+                    <h5 class="card-title" id="nombre3">Filtro de Aire</h5>
+                    <p class="card-text">CAT</p>
+                    <p><span class="card-price" id="precio3">380 bs</span></p>
+                    <div class="d-flex justify-content-between">
+                        <div class="input-group" style="width: 100px;">
+                            
+                        </div>
+                        <button class="btn btn-warning" id="btn4">🛒 Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Lista de Productos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          
+          <table id="tabla" >
+            <thead>
+              <tr>
+                <td>N°</td>
+                <td>Nombre</td>
+                <td>Precio</td>
+              </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <tfoot><td>Total: <span id="total"></span>Bs. </td></tfoot>
+          </table>
+          <button type="button" id="btndel" class="btn btn-success">ELMINAR</button>
+        </div>
+      </div>
+</div>
+<div class="container my-4">
+    <h2 class="text-center mb-4">Mas vendido</h2>
+    <div class="row">
+        
+        <div class="col-md-3">
+            <div class="card">
+                <img src="imagenes/5-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                <div class="card-body">
+                    <h5 class="card-title" id="nombre5">Filtro de Aire</h5>
+                    <p class="card-text">CAT</p>
+                    <p class="fs-5" id="precio5">280 bs</p>
+                    <div class="d-flex justify-content-between">
+                        <div class="input-group" style="width: 100px;">
+                            
+                        </div>
+                        <button class="btn btn-warning" id="btn5">🛒 Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="imagenes/R6-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                <div class="card-body">
+                    <h5 class="card-title" id="nombre6">Caja de Orings</h5>
+                    <p class="card-text">CAT</p>
+                    <p class="fs-5" id="precio6">350 bs</p>
+                    <div class="d-flex justify-content-between">
+                        <div class="input-group" style="width: 100px;">
+                            
+                        </div>
+                        <button class="btn btn-warning" id="btn6">🛒 Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="imagenes/r7-removebg-preview.png" class="card-img-top" alt="Tinto Pesquera Crianza 2021">
+                <div class="card-body">
+                    <h5 class="card-title" id="nombre7">Balde Trasero</h5>
+                    <p class="card-text">CTP</p>
+                    <p class="fs-5" id="precio7">1400 BS</p>
+                    <div class="d-flex justify-content-between">
+                        <div class="input-group" style="width: 100px;">
+                           
+                        </div>
+                        <button class="btn btn-warning" id="btn7">🛒 Agregar al carrito</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="imagenes/r8-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                <div class="card-body">
+                    <h5 class="card-title" id="nombre8">Disco de freno</h5>
+                    <p class="card-text">CTP</p>
+                    <p class="fs-5" id="precio8">120 bs</p>
+                    <div class="d-flex justify-content-between">
+                        <div class="input-group" style="width: 100px;">
+                            
+                        </div>
+                        <button class="btn btn-warning" id="btn8">🛒 Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </main>
+<footer class="footer bg-dark text-light pt-4 pb-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="text-uppercase mb-4">REPUESTOS</h5>
+                <p>Somos líderes en la venta de repuestos, con más de 19 años de experiencia ofreciendo los mejores productos y servicio.</p>
+                <p>Encuentra los repuestos más exclusivos en nuestro catálogo online, con envío rápido y seguro.</p>
+                
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-uppercase mb-4">Enlaces rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Inicio</a></li>
+                    <li><a href="REPUESTOS.html" class="text-light">REPUESTOS</a></li>
+                    
+                    <li><a href="nosotros.html" class="text-light">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html" class="text-light">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-uppercase mb-4">Síguenos</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.facebook.com" class="text-light me-3" target="_blank">
+                            <img src="imagenes/facebook.png" alt="Facebook" style="width: 40px; height: 40px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" class="text-light me-3" target="_blank">
+                            <img src="imagenes/instagram.png" alt="Instagram" style="width: 40px; height: 40px;">
+                        </a>    
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" class="text-light me-3" target="_blank">
+                            <img src="imagenes/xred.png" alt="Twitter" style="width: 40px; height: 40px;">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center mt-4">
+            <div class="col text-center">
+                <p>&copy; 2024 TRACTOPARTES.</p>
+            </div>
+        </div>
+        </div>
+</footer>
+        <!-- Modal -->
+<div class="modal fade" id="registroModal" tabindex="-1" aria-labelledby="registroModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Header del Modal -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="registroModalLabel">Formulario de Registro</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Cuerpo del Modal -->
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" placeholder="Crea una contraseña">
+                    </div>
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Confirmar Contraseña</label>
+                        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirma tu contraseña">
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Registrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Lista de Productos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <table id="tabla" class="table">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Las filas dinámicas se agregarán aquí -->
+                </tbody>
+                <tfoot>
+                    <tr>    
+                        <td colspan="2"><strong>Total:</strong></td>
+                        <td><span id="total">0.00</span> Bs.</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="d-flex justify-content-between mt-3">
+                <!-- Botones -->
+                <button type="button" id="btnpagar" class="btn btn-success">PAGAR</button>
+                <button type="button" id="btndel" class="btn btn-danger">ELIMINAR</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    </main>
+    <footer>
+      <!-- place footer here -->    
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="carrito.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+</div>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+</body>
+    
+</html>

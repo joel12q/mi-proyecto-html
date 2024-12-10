@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>REPUESTOS</title>
+   
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <nav class="carousel-nav">
+                    <ul class="nav-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="REPUESTOS.html">REPUESTOS</a></li>
+                        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                        <button class="btn btn-custom mx-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <i class="bi bi-cart4"></i> <span> 🛒</span>
+                            <span id="contador" class="position-absolute top-0 badge rounded-pill bg-danger">
+                              0
+                            </span>
+                          </button>
+                    </ul>
+                    </ul>
+                </nav>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagenes/8.jfif" alt="Primera imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagenes/5.jpg" alt="Segunda imagen">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagenes/7.jfif" alt="Tercera imagen">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+            
+        </header>
+        <main>
+            <div class="container my-4">
+                <h2 class="text-center mb-4">--BALDES--</h2>
+                <div class="row">
+                    
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p1-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre">Balde de excabarpta</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio">1900 BS</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                      
+                                    </div>
+                                    <button class="btn btn-warning" id="btnprod1">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p2-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title"  id="nombre1">Viña Ardanza Reserva 2017</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio1">3500 BS</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                   
+                                    </div>
+                                    <button class="btn btn-warning" id="btnag1">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p3-removebg-preview.png" class="card-img-top" alt="Tinto Pesquera Crianza 2021">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre2">Tinto Pesquera Crianza 2021</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio2">1200 BS</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                   
+                                    </div>
+                                    <button class="btn btn-warning" id="btnag2">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p4-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre3">Viña Ardanza Reserva 2017</h5>
+                                <p class="card-text">Espumoso</p>
+                                <p class="fs-5" id="precio3">230</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                       
+                                    </div>
+                                    <button class="btn btn-warning" id="btn4">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- VINOS ESPUMOSOS-->
+            <div class="container my-4">
+                <h2 class="text-center mb-4">--FILTROS--</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p5-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre5">Filtro de Diesel</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio5">220 bs</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                    
+                                    </div>
+                                    <button class="btn btn-warning" id="btn5">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p6-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre6">Filtro de diesel 320D</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio6">310 bs</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                        
+                                    </div>
+                                    <button class="btn btn-warning" id="btn6">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p7-removebg-preview.png" class="card-img-top" alt="Tinto Pesquera Crianza 2021">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre7">Filtro Trampera</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio7">220 bs</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                     
+                                    </div>
+                                    <button class="btn btn-warning" id="btn7">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p8-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre8"> Filtro de diesel</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5"  id="precio8">310  bs</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                    
+                                    </div>
+                                    <button class="btn btn-warning" id="btn8">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- VINOS TINTOS-->
+            <div class="container my-4">
+                <h2 class="text-center mb-4">--DISCOS DE FRENO--</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p9-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre9">Disco de freno</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio9">300 bs</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                       
+                                    </div>
+                                    <button class="btn btn-warning" id="btn9">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p10-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre10">Disco de Freno </h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio10">230</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                        
+                                    </div>
+                                    <button class="btn btn-warning" id="btn10">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p11-removebg-preview.png" class="card-img-top" alt="Tinto Pesquera Crianza 2021">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre11">Disco de freno</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio11">120 BS</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                   
+                                    </div>
+                                    <button class="btn btn-warning" id="btn11">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="imagenes/p12-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                            <div class="card-body">
+                                <h5 class="card-title" id="nombre12">Disco de freno</h5>
+                                <p class="card-text">CAT</p>
+                                <p class="fs-5" id="precio12">230c bs</p>
+                                <div class="d-flex justify-content-between">
+                                    <div class="input-group" style="width: 100px;">
+                                        
+                                    </div>
+                                    <button class="btn btn-warning" id="btn12">🛒 Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- VINOS DULCES-->
+        <div class="container my-4">
+            <h2 class="text-center mb-4">--ORINGS--</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="imagenes/p13-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nombre13">SELLO</h5>
+                            <p class="card-text">CAT</p>
+                            <p class="fs-5" id="nombre13">30 BS</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="input-group" style="width: 100px;">
+                                    
+                                </div>
+                                <button class="btn btn-warning" id="btn13">🛒 Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="imagenes/p14-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nombre14">SELLO</h5>
+                            <p class="card-text">CAT </p>
+                            <p class="fs-5" id="precio14">23 bs</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="input-group" style="width: 100px;">
+                                
+                                </div>
+                                <button class="btn btn-warning" id="btn14">🛒 Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="imagenes/p15-removebg-preview.png" class="card-img-top" alt="Tinto Pesquera Crianza 2021">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nombre15">SELLO</h5>
+                            <p class="card-text">CAT</p>
+                            <p class="fs-5" id="precio15">120 BS</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="input-group" style="width: 100px;">
+                                    
+                                </div>
+                                <button class="btn btn-warning" id="btn15">🛒 Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="imagenes/p16-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nombre16">SELLO</h5>
+                            <p class="card-text">CAT</p>
+                            <p class="fs-5" id="precio16">23 BS</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="input-group" style="width: 100px;">
+                                  
+                                </div>
+                                <button class="btn btn-warning" id="btn16">🛒 Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- VINOS BLANCOS-->
+        <div class="container my-4">
+            <h2 class="text-center mb-4">--CHAPAS DE CONTACTO--</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="imagenes/p17-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nombre17">CHAPA</h5>
+                            <p class="card-text">CAT</p>
+                            <p class="fs-5" id="precio17">300 bs</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="input-group" style="width: 100px;">
+                                   
+                                </div>
+                                <button class="btn btn-warning" id="btn17">🛒 Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="imagenes/p18-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nombre18">CHAPA</h5>
+                            <p class="card-text">CAT</p>
+                            <p class="fs-5" id="precio18">230 bs</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="input-group" style="width: 100px;">
+                                  
+                                </div>
+                                <button class="btn btn-warning" id="btn18">🛒 Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="imagenes/p19-removebg-preview.png" class="card-img-top" alt="Tinto Pesquera Crianza 2021">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nombre19">CHAPA</h5>
+                            <p class="card-text">CTP</p>
+                            <p class="fs-5" id="precio19">120 BS</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="input-group" style="width: 100px;">
+                                   
+                                </div>
+                                <button class="btn btn-warning" id="btn19">🛒 Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="imagenes/p20-removebg-preview.png" class="card-img-top" alt="Viña Ardanza Reserva 2017">
+                        <div class="card-body">
+                            <h5 class="card-title" id="nombre20">CHAPA</h5>
+                            <p class="card-text">CTP</p>
+                            <p class="fs-5" id="precio20">230 bs</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="input-group" style="width: 100px;">
+                                    
+                                </div>
+                                <button class="btn btn-warning" id="btn20">🛒 Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+        <footer class="footer bg-dark text-light pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5 class="text-uppercase mb-4">REPUESTOS</h5>
+                        <p>Desde hace más de 5 años, nos hemos dedicado a ofrecer repuestos de la más alta calidad, 
+                            conectando a nuestros clientes con los mejores proveedores de la región. Nuestro compromiso es garantizar una experiencia única en cada compra.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-uppercase mb-4">Enlaces rápidos</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-light">Inicio</a></li>
+                            <li><a href="REPUESTOS.html" class="text-light">REPUESTOS</a></li>
+                            
+                            <li><a href="nosotros.html" class="text-light">Sobre Nosotros</a></li>
+                            <li><a href="contacto.html" class="text-light">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="text-uppercase mb-4">Síguenos</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://www.facebook.com" class="text-light me-3" target="_blank">
+                                    <img src="imagenes/facebook.png" alt="Facebook" style="width: 40px; height: 40px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" class="text-light me-3" target="_blank">
+                                    <img src="imagenes/instagram.png" alt="Instagram" style="width: 40px; height: 40px;">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com" class="text-light me-3" target="_blank">
+                                    <img src="imagenes/xred.png" alt="Twitter" style="width: 40px; height: 40px;">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col text-center">
+                        <p>&copy; 2024 TRACTOPARTES.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Lista de Productos</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      
+                      <table id="tabla" >
+                        <thead>
+                          <tr>
+                            <td>N°</td>
+                            <td>Nombre</td>
+                            <td>Precio</td>
+                          </tr>
+                        </thead>
+                        <tbody>
+            
+                        </tbody>
+                        <tfoot><td>Total: <span id="total"></span>Bs. </td></tfoot>
+                      </table>
+                      <button type="button" id="btndel" class="btn btn-success">ELMINAR</button>
+                     
+                    </div>
+                  </div>
+                </main>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="repuestos.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
